@@ -1,6 +1,6 @@
 //importamos los stilos  y  mi logo 
 import '../styles/Footer.css';
-import LogoAngela from '../img/LogoAngela.svg';
+import logoFredy from '../img/logoFredy.png';
 
 const Footer = () => {
     return (
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="footer-down">
                 <p>Developed by</p>
                 <div>
-                    <img src={LogoAngela} alt="Logo Angela" />
+                    <img src={logoFredy} alt="Logo fredy" />
                 </div>
             </div>
         </div>

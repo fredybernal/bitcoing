@@ -1,5 +1,5 @@
 .cripto-first{
-    background: #02735E;
+    background: #020492;
     width: 95%;
     max-width: 500px;
     border-radius: 20px;
@@ -38,8 +38,9 @@
 .cripto-first .graphic{
     position: relative;
     height: 250px;
-    background: white;
+    background: black;
     margin: 20px;
+    color: white;
     border-radius: 5px;
     padding: 5px;
 }
@@ -55,9 +56,9 @@
     width: 90%;
     margin: auto;
     text-align: center;
-    background: white;
+    background: black;
     border-radius: 5px;
     padding: 10px;
-    color: black;
+    color: white;
     margin-bottom: 20px;
 }

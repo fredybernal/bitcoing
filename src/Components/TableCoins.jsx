@@ -1,8 +1,9 @@
+//importamos los estilos y los componenetes necesarios 
 import React from "react";
-import "./tableCoins.css";
+import "../styles/tableCoins.css";
 import CoinRow from "./CoinRow";
 
-function TableCoins({ coins }) {
+function TableCoins({ coins }) {/*recibimo el arreglo de json de la api */
   console.log(coins);
   return (
     <table className="table_coins">
@@ -18,7 +19,8 @@ function TableCoins({ coins }) {
         </tr>
       </thead>
       <tbody>
-        {coins.map((coin, index) => (
+        {coins.map((coin, index) => (/*dibujamos cada ilerea de la tabla y le pasamos la cripto moneda 
+        que debe dibujar */
           <CoinRow coin={coin} key={index} index={index + 1} />
         ))}
       </tbody>

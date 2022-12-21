@@ -1,9 +1,12 @@
-import { FaPlay } from "react-icons/fa";
-import './cardPrincipal.css'
-import { deleteDec, colorDec } from './App'
+//importamos los estilos y los componentes que necesitamos 
+import { FaPlay } from "react-icons/fa";//libreria para usar unos iconos 
+import '../styles/cardPrincipal.css'
+import { deleteDec, colorDec } from '../App'/*el deletedec nos sirve para borrar unos
+ decimales y dejar los que necesitemos */
 import Graph from "./Graph";
 
-function CardPrincipal({ json: { id,
+function CardPrincipal({ json: { id,/*estamos recibiendo unas props que una de ellas 
+es un objeto por lo tanto lo desestructuramos y obtenemos la propiedades que necesitamos */ 
     symbol,
     current_price,
     image,
@@ -16,7 +19,7 @@ function CardPrincipal({ json: { id,
 }, cur = "usd" }) {
 
    
-    return (
+    return (//usamos las props para llenar el componente 
         <>
             <article className="cripto-first">
                 <div className="cripto-title">

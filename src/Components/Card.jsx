@@ -1,9 +1,12 @@
-import "./Card.css"
+//importamos los estilos y los componentes que necesitamos 
+import "../styles/Card.css"
 import Graph from "./Graph"
-import {colorDec} from './App'
+import {colorDec} from '../App'/*traemos una funcion que sirve para cambiar cuando 
+es positivo o negativo un numero */
 
-export default function Card({coinId, cur, porcentaje, price, img}){
-    return (
+export default function Card({coinId, cur, porcentaje, price, img}){/*se reciben unas props 
+para poder llenar el componente con informacion */
+    return (//se utilizan las props para formatear los textos 
         <div className="card">
             <img src={img} alt=""/>
             <div className="con-main">

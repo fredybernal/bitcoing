@@ -1,12 +1,6 @@
-import './Footer.css';
-import LogoAngela from './img/LogoAngela.svg';
-import LogoAlejandro from './img/LogoAlejandro.svg';
-import LogoAndres from './img/LogoAndres.svg';
-import LogoBrayan from './img/LogoBrayan.svg';
-import LogoCamila from './img/LogoCamila.svg';
-import LogoJesus from './img/LogoJesus.svg';
-import LogoNicolas from './img/LogoNicolas.svg';
-import LogoDruck from './img/LogoDruck.jpeg';
+//importamos los stilos  y  mi logo 
+import '../styles/Footer.css';
+import LogoAngela from '../img/LogoAngela.svg';
 
 const Footer = () => {
     return (
@@ -26,13 +20,6 @@ const Footer = () => {
                 <p>Developed by</p>
                 <div>
                     <img src={LogoAngela} alt="Logo Angela" />
-                    <img src={LogoAndres} alt="logo Andres" />
-                    <img src={LogoBrayan} alt="logo Brayan" />
-                    <img src={LogoCamila} alt="logo Camila" />
-                    <img src={LogoJesus} alt="logo Jesus" />
-                    <img src={LogoAlejandro} alt="logo Alejandro" />
-                    <img src={LogoNicolas} alt="logo Nicolas" />
-                    <img src={LogoDruck} alt="logo Druck" />
                 </div>
             </div>
         </div>

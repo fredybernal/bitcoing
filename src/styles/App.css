@@ -9,7 +9,6 @@
 }
 main{
     display: grid;
-    grid: 1fr / 1fr 1fr;
     place-items: center;
     gap: 30px;
     width: calc(87% + 30px);;
@@ -28,9 +27,9 @@ main{
     font-weight: bold;
 }
 .green{
-    color: green;
+    color: rgb(40, 165, 2);
 }
 
 .red{
-    color: red;
+    color: rgb(255, 8, 0);
 }

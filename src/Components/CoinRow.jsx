@@ -1,11 +1,12 @@
+//importamos los estilos y los componentes que necesitamos 
 import React from "react";
-import "./coinRow.css"
+import "../styles/coinRow.css"
 import Graph from './Graph'
-import {deleteDec, colorDec, numberF} from './App'
+import {deleteDec, colorDec, numberF} from '../App'//el number f sirve para poner los puntos en los miles 
 
-export default function CoinRow({ coin, index }) {
+export default function CoinRow({ coin, index }) {/*recibimos unas props que traen informacion de la api*/
   console.log(index);
-  return (
+  return (//renderizamos el ocmponente y lo llenamos con las props 
     <tr>
       <td>{index}</td>
       <td>
